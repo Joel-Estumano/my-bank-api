@@ -8,7 +8,7 @@ export class GerencianetController {
 
     constructor(private gerencianetService: ChargeService) { }
 
-    @UseGuards(JwtAuthGuard)
+   // @UseGuards(JwtAuthGuard)
     @Post()
     @UsePipes(ValidationPipe)
     async add(
