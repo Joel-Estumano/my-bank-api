@@ -18,7 +18,7 @@ export class BankAccountsController {
         return await this.bankAccountsService.add(userDto);
     }
 
-    @UseGuards(JwtAuthGuard)
+   /*  @UseGuards(JwtAuthGuard) */
     @Post('/search')
     async search(@Req() request: any): Promise<BankAccount[] | {}> {
         return await this.bankAccountsService.search(request);
