@@ -9,6 +9,6 @@ export class AppService {
   getHello(): string {
     const developmentMode: string = `DEVELOPMENT_MODE: ${process.env.DEVELOPMENT_MODE}`;
     console.log(developmentMode);
-    return 'Hello World! ' + developmentMode;
+    return `<h1>Hello World!</h1>`
   }
 }
