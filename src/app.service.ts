@@ -9,6 +9,9 @@ export class AppService {
   getHello(): string {
     const developmentMode: string = `DEVELOPMENT_MODE: ${process.env.DEVELOPMENT_MODE}`;
     console.log(developmentMode);
-    return `<h1>Hello World!</h1>`
+    return `<body style="background-color: blue;">
+              <h1>Hello World!</h1>
+              <p>https://sambli-tech.herokuapp.com/</p>
+            </body`
   }
 }
