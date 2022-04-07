@@ -24,7 +24,8 @@ export class AppService {
         .box {
             width: 300px;
             height: 300px;
-            background: #fff;
+            background: #6082B6;
+            color: #E5E4E2
         }
         
         body {
@@ -42,7 +43,7 @@ export class AppService {
     <body>
         <div class="container">
             <div class="box">
-                Sambli Tech
+                <h1>Sambli Tech</h1>
             </div>
         </div>
     </body>
